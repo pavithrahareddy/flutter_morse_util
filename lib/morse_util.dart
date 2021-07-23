@@ -54,7 +54,7 @@ class MorseUtil {
     '?': "001100",
     '\'': "011110",
     '!': "101011",
-    '/': "10010",
+    ' ': "10010",
     '(': "10110",
     ')': "101101",
     '&': "01000",
@@ -82,7 +82,7 @@ class MorseUtil {
 
   final String _dit = '.'; //short mark or dot
   final String _dah = '-'; //longer mark or dash
-  final String _split = '/'; //摩尔斯分割符，以它来分割
+  final String _split = ' '; //摩尔斯分割符，以它来分割
 
   ///字符转电码
   String encode(String text) {
